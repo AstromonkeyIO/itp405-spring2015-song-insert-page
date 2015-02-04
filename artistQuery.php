@@ -13,8 +13,8 @@ class artistQuery extends Database {
     public function getAll() {
 
         $sql = "
-            SELECT artist_name, artist_id
-            FROM artists INNER JOIN songs ON artists.id = artist_id ORDER BY artist_name ASC
+            SELECT artist_name, id
+            FROM artists ORDER BY artist_name ASC
 
         ";
 

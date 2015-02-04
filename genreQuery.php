@@ -13,7 +13,7 @@ class genreQuery extends Database {
     public function getAll() {
 
         $sql = "
-            SELECT genre
+            SELECT genre, id
             FROM genres ORDER BY genre ASC
         ";
 

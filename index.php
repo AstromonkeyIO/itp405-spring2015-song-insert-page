@@ -41,7 +41,7 @@
             <input type="text" name="title" class="songInput" placeholder="Song Title">
             <select name="artist" style="height: 200px;">
                 <?php foreach($artists as $artist) : ?>
-                    <option value="<?php echo $artist->artist_id ?>">
+                    <option value="<?php echo $artist->id ?>">
                         <?php echo $artist->artist_name ?>
                     </option>
                 <?php endforeach ?>                    
